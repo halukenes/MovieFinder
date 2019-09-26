@@ -1,0 +1,12 @@
+<div class="main-grid">
+    <div class="search-row">
+        <mat-form-field class="search-field">
+            <input matInput type="search" placeholder="Paste your image URL here" [(ngModel)]="imageURL"
+                (change)='getResults()'>
+        </mat-form-field>
+
+    </div>
+    <div class="results-row">
+        Results here
+    </div>
+</div>
